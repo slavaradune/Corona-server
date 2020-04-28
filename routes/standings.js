@@ -32,13 +32,26 @@ async function accessSpreadSheet() {
     return rows.map(r => ({
         name: r['שם'],
         age: r['גיל'],
-        kyu: r['חגורה'],
+        rank: beltToNumber[r['חגורה']],
         city: r['עיר'],
         total_points: r['ניקוד מצטבר'],
         standing_details: collect_details(r)
     })) || [];
 
 }
+
+const beltToNumber = {
+    'לבנה': 0,
+    'סגולה': 0,
+    'קיו 10': 1,
+    'קיו 9': 2,
+    'קיו 8': 3,
+    'קיו 7': 4,
+    'קיו 6': 5,
+    'קיו 5': 6,
+    'קיו 4': 7,
+    'קיו 3': 8,
+};
 
 
 router.get('/', function(req, res, next) {
