@@ -2,7 +2,7 @@ var express = require('express');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 var router = express.Router();
 
-const creds = require('../client_secret');
+const creds = require('../corona-fight-289607-20860c276724');
 
 function getDate(title) {
     return title.split(' ')[2];
@@ -32,26 +32,13 @@ async function accessSpreadSheet() {
     return rows.map(r => ({
         name: r['שם'],
         age: r['גיל'],
-        rank: beltToNumber[r['חגורה']],
+        kyu: r['חגורה'],
         city: r['עיר'],
         total_points: r['ניקוד מצטבר'],
         standing_details: collect_details(r)
     })) || [];
 
 }
-
-const beltToNumber = {
-    'לבנה': 0,
-    'סגולה': 0,
-    'קיו 10': 1,
-    'קיו 9': 2,
-    'קיו 8': 3,
-    'קיו 7': 4,
-    'קיו 6': 5,
-    'קיו 5': 6,
-    'קיו 4': 7,
-    'קיו 3': 8,
-};
 
 
 router.get('/', function(req, res, next) {
