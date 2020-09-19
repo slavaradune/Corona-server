@@ -5,19 +5,19 @@ var router = express.Router();
 const creds = require('../corona-fight-289607-20860c276724');
 
 function getDate(title) {
-    return title.split(' ')[2];
+    return title.split(' ')[1];
 }
 
 function collect_details(r) {
     let details = [];
-    for (let i = 8; i < Object.keys(r).length; i = i + 2){
+    for (let i = 8; i < Object.keys(r).length; i = i + 1){
         let key = Object.keys(r)[i];
-        let next_key = Object.keys(r)[i + 1];
+        // let next_key = Object.keys(r)[i + 1];
         let date = getDate(key);
-        let exercise = r[key];
-        let challenge = r[next_key];
+        // let exercise = r[key];
+        let challenge = r[key];
         details.push({'date' : date,
-                        'exercise': exercise != null && !isNaN(exercise) && exercise !== '' ? exercise : "--",
+                        // 'exercise': exercise != null && !isNaN(exercise) && exercise !== '' ? exercise : "--",
                         'challenge': challenge != null && !isNaN(challenge) && challenge !== '' ? challenge : "--"})
     }
     return details;
