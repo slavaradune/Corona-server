@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "corona-fight-292919",
+  "private_key_id": "958bee26a36f14f3a2d573e87e6c358ff1b9e41f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxBQnWTthumjmL\n2PYt8blI6xtQ5VXOMUW6A9C+l93sHhuu18s8Z2gCDh3WHcyEMAUwVzHgtPTHLUz4\n6A72Zj+PqhlIBYEM7vlDj7iCzUPVQWtYp/wQcdXrACw3NUbd+bWJqskJOcDL9qtm\nvIBIDJ5eL3ccS1tyH0xGTNlCMcCc7rAvAWlKTBAm/OhA4yCBN+mEfOqwgSS4mT/u\nEh+AzU79v+GOaGVkohZoTAQKUmVoo1vAItW+d9DYGTCf72S4QQ3p/VhpoU01Sm2B\nRN8CctTF2LqNBoTMszSsbUm9aIG+s7sy/pWQdiluXqIlTd/YiHDYAD4abyzCWHNX\nQKvraQlrAgMBAAECggEAFci58i6Xwdym0kfr27GQjKGqJeVjDtHPc9m+WYYU4FbA\nL18M+qz7Bq24DD50iZvjN5SzZaS/LrerbkIYfUgN8F8NZ2iN/gp2kFLicO5Tt62q\nSSm7AkcP/TBzQIQE6ZIuPffPb5w01qTPaQAvhS5QWuTacpfvc/bYCxqv7c5zlpww\nde5JVXbyBUWMSau0iGHgNti/e2cYN6+c+mPtVJpNdtf69yrAwNSaNd52xj94LS2x\nLko6bOIbmpmCioKTIXY7B1ZHi+qoJvlPXjSjYfSPLQ9wryRbI5DjI0uySSQfWyBG\npXaJlUOF8aEKij33EUozV9n83WZ0Q0u517awsyJQeQKBgQDlX8qo6Wh6XS9rrTRK\nfu+eE+K7ScijpKl1AIzLl75lrnjlHkgO6XBke5wcodIUPjHnP2ow0LWqwpVvqh1t\n7nUILznjSXSLjCIee6To1MZeAYhsssaTbhuMbNbsmoCyyLujic0Pu9zkLxVM2SRF\nzUfiq+mkOMITHfPyT5ujzVvo5QKBgQDFkXOn+gknAGGLtf8S0vEkyWr5ZzXVhNEj\n9tsisX1O6Vbc+hYekJvW235FR1rQ8Fv8bExRSOee51uotWlqvbEW6m4rkrGgcELN\nbzLoq0+M93Ze+YvUS9T+Cp10oXLCclCIewjcFH3/WKYcJxp7kD431QJb0D1Y0R4Y\nfTtxwrqUDwKBgAr45RnlaHEKCh2tgGXb4px+OQdahTWGx/Bn4VRP4vS8Pt4+75V/\nBzhXTWV1PDZprztvpiXFphsQCdP4oEXE9WY51BwSRHf0cSFiKsZUf1S54AvLFYKx\n7rFt924ECgoDXi55hgytoOhtdChj7r9EDZ9DN/76FBaUBTpfIoPYbAAdAoGAc6Jc\nRRatQKySa0lMT+Iyzcst12e3NI+WMSyMudOUehlMg+3EAIO3EpxJXZcT6nKkBCwG\nxxSarIDRPv9fAeCgw77WWJ51ZGgQUVkiPNf3qZQ1LgV09/6iXUYtPlQ4bOKnjBom\n51j/HfLu1k90ypl0MQ11YfOR1Ggg60hxAHZu6bUCgYEArs1LrSsP/D5AqdZ+Bkn0\n2bp51bsr8BD422RfQGVYquDBNa7ebZghNN+dByLGU7/pOYLjhGwOdXhG+BbqL1Qm\ncPd9Ds/99Nj2RqMTACaTfqZUm3WMu4pOxPLI9nmBhe+MUOzlc9b9kcRnBQPWHuHI\npCHi/ycLyJhKcLAc3QZRKHY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "corona-fight@corona-fight-292919.iam.gserviceaccount.com",
+  "client_id": "112360402612200583241",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/corona-fight%40corona-fight-292919.iam.gserviceaccount.com"
+}

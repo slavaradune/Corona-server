@@ -2,7 +2,7 @@ var express = require('express');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 var router = express.Router();
 
-const creds = require('../corona-fight-289607-20860c276724');
+const creds = require('../corona-fight-292919-958bee26a36f.json');
 
 function getDate(title) {
     return title.split(' ')[1];
